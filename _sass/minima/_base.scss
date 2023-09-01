@@ -1,5 +1,5 @@
 html {
-  font-size: $base-font-size;
+  font-size: 20 px;
 }
 
 /**
@@ -20,8 +20,8 @@ dl, dd, ol, ul, figure {
  */
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-  color: $text-color;
-  background-color: $background-color;
+  color: #FF0;
+  background-color: #CCC;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;
@@ -112,11 +112,11 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $link-base-color;
+  color: #000000;
   text-decoration: none;
 
   &:visited {
-    color: $link-visited-color;
+    color: #0F0;
   }
 
   &:hover {
